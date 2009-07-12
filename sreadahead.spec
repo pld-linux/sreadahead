@@ -3,7 +3,7 @@ Summary:	Sreadahead
 Summary(pl.UTF-8):	Sreadahead
 Name:		sreadahead
 Version:	1.0
-Release:	0.1
+Release:	1
 License:	GPL v2
 Group:		Applications
 Source0:	http://sreadahead.googlecode.com/files/%{name}-%{version}.tar.gz
@@ -41,3 +41,5 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(644,root,root,755)
 %doc README
 %attr(755,root,root) %{_sbindir}/%{name}
+%dir /var/lib/sreadahead
+%dir /var/lib/sreadahead/debugfs
