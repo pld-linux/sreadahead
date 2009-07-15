@@ -19,8 +19,6 @@ This is typically used to fetch information needed by the boot process
 into memory as early as possible. Sreadahead thereby eliminates IO
 wait times during the boot process which results in a faster startup.
 
-%description -l pl.UTF-8
-
 %prep
 %setup -q
 
